@@ -668,6 +668,10 @@ textarea:focus {
   .prices-card {
     margin-top: 4rem;
   }
+  .footer-word-links {
+    display: block;
+    margin: 5% auto;
+  }
   .footer .links {
     margin: 3% auto 0 -20%;
   }
@@ -732,7 +736,7 @@ textarea:focus {
     padding-bottom: 0.5rem;
     border-bottom: 2px solid #5584ff;
   }
-  .footer p {
+  .footer h5 {
     text-align: center;
     margin-left: 4rem;
   }

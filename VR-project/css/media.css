@@ -1,0 +1,771 @@
+@media screen and (max-width: 2200px) {
+  .dino-img {
+    width: 30%;
+    top: 10% !important;
+    right: 10% !important;
+  }
+}
+@media screen and (max-width: 1700px) {
+  .dino-img {
+    width: 40%;
+    top: 25% !important;
+    right: 5% !important;
+  }
+  .compatibility-vr img {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .about-img {
+    top: 20%;
+    right: -20%;
+    width: 50%;
+  }
+  .abilities-block {
+    width: 100%;
+  }
+  .abilities .iron-man-part-text {
+    margin: 0;
+  }
+  .abilities .emerald {
+    display: none;
+  }
+  .abilities .assasins-part-text {
+    margin-left: 10rem;
+  }
+  .compatibility-vr img {
+    width: 90%;
+  }
+  .unique-offer p span {
+    display: block;
+  }
+  .cont-details-2 {
+    background: url(../img/cont-details-2/bg.png) no-repeat right center;
+    background-size: cover;
+  }
+  .cont-details-2-img {
+    position: absolute;
+    top: -10%;
+  }
+}
+@media screen and (max-width: 991px) {
+  html {
+    font-size: 8px;
+  }
+  .top-line {
+    height: 0.5%;
+  }
+  .header {
+    max-width: 80rem;
+  }
+  .main-trigger img {
+    width: 45%;
+  }
+  .about-img {
+    width: 40%;
+    right: -5%;
+  }
+  .abilities .diamond {
+    display: none;
+  }
+  .abilities .text-block {
+    margin-top: 6rem;
+  }
+  .abilities .iron-man-part {
+    flex-direction: column;
+  }
+  .abilities .shark-part {
+    flex-direction: column-reverse;
+  }
+  .abilities .skiing-part {
+    right: 0;
+  }
+  .abilities .skiing-img,
+  .abilities .mac-img {
+    width: 90%;
+    display: block;
+    margin: 4rem auto;
+  }
+  .abilities .assasins-part {
+    left: 0;
+  }
+  .abilities .assasins-part-text {
+    margin-left: 0;
+    right: 0;
+  }
+  .starting-img {
+    margin-top: 3rem;
+  }
+  .compatibility-title {
+    text-align: center;
+    font-size: 5rem;
+  }
+  .compatibility .coub {
+    display: none;
+  }
+  .compatibility-media-block {
+    display: none;
+  }
+  .compatibility-vr-2 {
+    display: block;
+  }
+  .games-main-title {
+    font-size: 3rem;
+  }
+  .games-main-text {
+    font-size: 2rem;
+  }
+  .games-main-image img {
+    width: 100%;
+  }
+  .games-main .blaster {
+    width: 70%;
+    left: 50%;
+  }
+  .games-main-block {
+    margin-bottom: 4rem;
+  }
+  .review-block-client .comment-gem {
+    position: absolute;
+    right: -45%;
+    top: -30%;
+  }
+  .review-block-client .client-info .client-information {
+    font-size: 1.6rem;
+  }
+  .review-block-client .client-info img {
+    width: 27%;
+  }
+  .review-block-client .client-text {
+    font-size: 1.6rem;
+  }
+  .working-block {
+    margin-bottom: 7rem;
+  }
+  .working-block-text {
+    font-size: 2rem;
+  }
+  .watch-the-video-youtube {
+    padding: 20% 10%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-link {
+    margin-top: 2rem;
+  }
+  .header-link__phone-number {
+    display: inline-block;
+  }
+  .header-link__order-link {
+    margin-left: 3rem;
+  }
+  .main {
+    padding-bottom: 6rem;
+  }
+  .main-trigger {
+    margin-top: 6rem !important;
+  }
+  .main-trigger .dino-img {
+    top: 40% !important;
+    right: 0 !important;
+  }
+  .about-description {
+    width: 100%;
+    font-size: 2.5rem;
+  }
+  .about-complectation .first-block-margin {
+    margin-left: 0;
+  }
+  .about-complectation__first-block {
+    display: block;
+    margin-top: 3rem;
+  }
+  .about-complectation__first-block .price {
+    margin-top: 1rem;
+  }
+  .about-complectation__btn {
+    margin: 4rem auto 0;
+    font-size: 2rem;
+    padding: 2.5rem 5rem;
+  }
+  .about-img {
+    position: static;
+    width: 100%;
+  }
+  .abilities-block {
+    width: 80rem;
+  }
+  .cont-details .contact-text .mobile-form {
+    margin: 3rem auto 0 auto;
+    width: 80%;
+    display: block;
+  }
+  .cont-details .dekstop-form {
+    display: none;
+  }
+  .compatibility-title {
+    text-align: center;
+    font-size: 5rem;
+  }
+  .games-title {
+    line-height: 5rem;
+  }
+  .games-title span {
+    display: block;
+  }
+  .games-img {
+    margin: 6rem auto 7rem auto;
+  }
+  .games-main-image img {
+    width: 90%;
+  }
+  .games-main-image .blaster {
+    width: 70%;
+  }
+  .games-main-text {
+    font-size: 1.8rem;
+  }
+  .review-display {
+    display: none;
+  }
+  .review-block-client .comment-gem {
+    display: none;
+  }
+  .review-block-client .client-info .client-information {
+    font-size: 1.6rem;
+  }
+  .review-block-client .client-info img {
+    width: 27%;
+  }
+  .review-block-client .client-text {
+    font-size: 1.5rem;
+  }
+  .watch-the-video-youtube {
+    padding: 25% 7%;
+  }
+}
+@media screen and (max-width: 568px) {
+  html {
+    font-size: 6px;
+  }
+  .main-trigger-content__title {
+    font-size: 3.5rem !important;
+  }
+  .main-trigger-content__subtitle {
+    font-size: 2.1rem;
+  }
+  .main-trigger-content__btn {
+    font-size: 3rem;
+  }
+  .main-trigger .dino-img {
+    top: 30%;
+  }
+  .about-title {
+    font-size: 5rem;
+  }
+  .about-description {
+    font-size: 3rem;
+  }
+  .about-complectation__first-block .complectation-title {
+    font-size: 3rem;
+  }
+  .about-complectation__first-block ul .point {
+    font-size: 2.5rem;
+  }
+  .about-complectation__first-block .price {
+    font-size: 3.5rem;
+  }
+  .about-complectation__btn {
+    margin: 6rem auto;
+  }
+  .abilities .text-block .title {
+    font-size: 3rem;
+  }
+  .abilities .text-block .subtitle {
+    font-size: 2rem;
+  }
+  .cont-details .contact-text-title {
+    font-size: 5rem;
+  }
+  .cont-details .contact-text .unique-offer::after {
+    border-top: 4.4rem solid transparent;
+    border-left: 1.5rem solid #18a7d0;
+    border-bottom: 4.4rem solid transparent;
+  }
+  .cont-details .contact-text .unique-offer p {
+    font-size: 2.2rem;
+  }
+  .cont-details .contact-text .mobile-form .form-main-input {
+    margin-top: 3rem;
+  }
+  .cont-details .contact-text .mobile-form .form__btn {
+    font-size: 2.7rem;
+  }
+  .abilities-1 {
+    display: none;
+  }
+  .starting-title {
+    font-size: 6rem;
+  }
+  .starting-img {
+    margin-top: 5rem;
+  }
+  .starting-img img {
+    width: 60%;
+  }
+  .starting .step .wrapper .wrap {
+    border: 4px solid #ffffff;
+  }
+  .starting .step .wrapper .wrap span {
+    left: 27%;
+    top: -10%;
+  }
+  .starting .step-description {
+    font-size: 2.3rem;
+  }
+  .compatibility .phones-item-subtitle {
+    font-size: 2.9rem;
+  }
+  .video-title {
+    font-size: 5rem;
+  }
+  .video-link {
+    border: 5px solid #ffffff;
+    width: 12.9rem;
+    height: 12.9rem;
+  }
+  .video-link .google-play-icon {
+    font-size: 5rem;
+  }
+  .video-word-link {
+    font-size: 3rem;
+  }
+  .games-title {
+    font-size: 4rem;
+  }
+  .games-main-text {
+    font-size: 2.5rem;
+  }
+  .games-main img {
+    width: 75%;
+  }
+  .games-main .blaster {
+    width: 60%;
+    left: 43%;
+  }
+  .games-main-block {
+    margin-bottom: 5rem;
+  }
+  .games-btn {
+    font-size: 3rem;
+  }
+  .review-block-client .client-info .client-information {
+    font-size: 2.5rem;
+  }
+  .review-block-client .client-text {
+    font-size: 2.3rem;
+  }
+  .working-block {
+    margin-bottom: 10rem;
+  }
+  .cont-details-2 {
+    background: url(../img/cont-details-2/bg.png) no-repeat center center;
+    background-size: cover;
+  }
+  .cont-details-2-img {
+    display: none;
+  }
+  .request-a-call-form {
+    width: 80%;
+  }
+  .request-a-call-form .form-header {
+    font-size: 3.5rem;
+  }
+  .request-a-call-form .form-main-input {
+    margin-top: 1.5rem;
+    font-size: 2.7rem;
+  }
+  .request-a-call-form .form-main small {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+  }
+  .request-a-call-form .request-btn {
+    margin-top: 1.5rem;
+    font-size: 2.7rem;
+  }
+  .request-a-call-form .close-btn {
+    top: -3.5%;
+    width: 5rem;
+    height: 5rem;
+  }
+  .request-a-call-form .close-btn-icon {
+    font-size: 3rem;
+  }
+  .wrap-arrow {
+    font-size: 3.5rem !important;
+    right: 2rem;
+  }
+  .watch-the-video-youtube {
+    padding: 35% 5%;
+  }
+}
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 5px;
+  }
+  .header-logo__title {
+    font-size: 2.5rem;
+  }
+  .header-link__order-link {
+    font-size: 3rem;
+  }
+  .main-trigger-content__title {
+    font-size: 3rem;
+  }
+  .main-trigger-content__btn {
+    padding: 1.5rem 5rem;
+    font-size: 2.5rem;
+  }
+  .about_img {
+    width: 90%;
+  }
+  .about-title {
+    font-size: 7rem;
+  }
+  .about-complectation__first-block {
+    margin-top: 7rem;
+  }
+  .about-complectation__first-block .complectation-title {
+    font-size: 5rem;
+  }
+  .about-complectation__first-block ul {
+    margin-top: 2rem;
+  }
+  .about-complectation__first-block ul .point {
+    font-size: 3.5rem;
+  }
+  .abilities .text-block {
+    margin-top: 4rem;
+  }
+  .abilities .iron-man-img,
+  .abilities .shark-img {
+    width: 90%;
+  }
+  .cont-details .contact-text .unique-offer p {
+    font-size: 2.5rem;
+  }
+  .cont-details .contact-text .unique-offer::after {
+    border-top: 4.9rem solid transparent;
+    border-left: 1.5rem solid #18a7d0;
+    border-bottom: 4.9rem solid transparent;
+  }
+  .cont-details .contact-text .mobile-form {
+    width: 100%;
+  }
+  .cont-details .contact-text .mobile-form .form-header {
+    font-size: 3.5rem;
+  }
+  .cont-details .contact-text .mobile-form .form-main-input {
+    font-size: 2.5rem;
+  }
+  .cont-details .contact-text .mobile-form .form-main small {
+    font-size: 2.3rem;
+  }
+  .cont-details .contact-text .mobile-form .form__btn {
+    font-size: 3rem;
+  }
+  .cont-details .contact-text .features .feature-1 .watch-img,
+  .cont-details .contact-text .features .feature-2 .watch-img {
+    margin-bottom: 0.5rem;
+  }
+  .cont-details .contact-text .features .feature-1 p,
+  .cont-details .contact-text .features .feature-2 p {
+    font-size: 2.2rem;
+  }
+  .starting {
+    background-size: auto;
+  }
+  .starting-title::after {
+    height: 1rem;
+    width: 10rem;
+  }
+  .starting .step .wrapper .wrap {
+    border: 3px solid #ffffff;
+    width: 5rem;
+    height: 5rem;
+  }
+  .starting .step .wrapper .wrap span {
+    top: -15%;
+  }
+  .starting .step-description {
+    font-size: 2.5rem;
+  }
+  .compatibility .phones img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .compatibility .phones-item-subtitle {
+    margin-top: 5rem;
+    font-size: 3rem;
+  }
+  .games-title {
+    font-size: 5rem;
+  }
+  .games-title span {
+    margin-top: 1.2rem;
+  }
+  .games-main-title {
+    font-size: 4.5rem;
+  }
+  .games-main-text {
+    font-size: 3rem;
+  }
+  .games-main img {
+    width: 80%;
+  }
+  .games-main .blaster {
+    width: 60%;
+    left: 43%;
+  }
+  .games-main-block {
+    margin-bottom: 10rem;
+  }
+  .games-btn {
+    font-size: 4.5rem;
+  }
+  .review-block-client .client-info .client-information {
+    font-size: 3rem;
+  }
+  .review-block-client .client-text {
+    font-size: 2.6rem;
+  }
+  .working-block {
+    margin-top: 15rem;
+  }
+  .working-block-text {
+    font-size: 3rem;
+  }
+  .footer .question h3 {
+    font-size: 5rem;
+  }
+  .footer .question a {
+    font-size: 3rem;
+  }
+  .footer-nav-bg {
+    padding: 4rem 0 5rem;
+  }
+  .footer-link-number {
+    display: block;
+    text-align: center;
+    margin-top: 6rem;
+    font-size: 6rem;
+  }
+  .footer-link-order {
+    display: block;
+    margin-top: 12rem;
+    font-size: 6rem;
+  }
+  .request-a-call-form {
+    width: 85%;
+  }
+  .request-a-call-form .form-header {
+    font-size: 4rem;
+  }
+  .request-a-call-form .form-main-input {
+    padding: 2rem 1.5rem;
+    margin-top: 2rem;
+    font-size: 3.5rem;
+  }
+  .request-a-call-form .form-main small {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+  }
+  .request-a-call-form .request-btn {
+    margin-top: 2rem;
+    font-size: 3rem;
+  }
+  .request-a-call-form .close-btn {
+    top: -4%;
+    width: 7rem;
+    height: 7rem;
+  }
+  .request-a-call-form .close-btn-icon {
+    margin-top: 0.55rem;
+    font-size: 4rem;
+  }
+  .watch-the-video-youtube {
+    padding: 45% 3%;
+  }
+}
+@media screen and (max-width: 400px) and (min-width: 320px) {
+  html {
+    font-size: 4px;
+  }
+  .header-logo__title {
+    font-size: 2.7rem;
+  }
+  .header-link {
+    margin-top: 5rem;
+  }
+  .header-link__phone-number {
+    font-size: 4rem;
+  }
+  .header-link__order-link {
+    font-size: 4rem;
+  }
+  .main-trigger-content__title {
+    font-size: 2rem;
+  }
+  .main-trigger-content__btn {
+    padding: 1.5rem 5rem;
+    font-size: 3rem;
+  }
+  .main-trigger .dino-img {
+    top: 35%;
+  }
+  .about-img {
+    width: 100%;
+  }
+  .about-complectation__btn {
+    font-size: 2.4rem;
+    padding: 3.5rem 6rem;
+  }
+  .abilities .text-block .title {
+    font-size: 3.5rem;
+  }
+  .abilities .text-block .subtitle {
+    font-size: 2.5rem;
+  }
+  .abilities .icon {
+    margin-top: 10%;
+  }
+  .cont-details .contact-text .unique-offer::after {
+    border-top: 8.1rem solid transparent;
+    border-left: 1.7rem solid #18a7d0;
+    border-bottom: 8.1rem solid transparent;
+  }
+  .cont-details .contact-text .unique-offer p {
+    font-size: 3.5rem;
+  }
+  .cont-details .contact-text .unique-offer p span {
+    display: inline;
+  }
+  .cont-details .contact-text .mobile-form {
+    width: 100%;
+  }
+  .cont-details .contact-text .mobile-form .form-main-input {
+    padding: 2.5rem 2rem;
+    font-size: 2.7rem;
+  }
+  .cont-details .contact-text .features .watch-img,
+  .cont-details .contact-text .features .bag-img {
+    width: 20%;
+  }
+  .starting {
+    background-size: 800%;
+  }
+  .starting-img {
+    margin-top: 17rem;
+  }
+  .starting-img img {
+    width: 90%;
+  }
+  .starting .step .wrapper {
+    width: 9rem;
+    height: 9rem;
+  }
+  .starting .step .wrapper .wrap {
+    width: 7.6rem;
+    height: 7.6rem;
+  }
+  .starting .step .wrapper .wrap span {
+    font-size: 5rem;
+    top: -12%;
+  }
+  .starting .step-description {
+    font-size: 3rem;
+  }
+  .compatibility .phones-item-subtitle {
+    font-size: 3.5rem;
+  }
+  .games-title {
+    margin-bottom: 11rem;
+  }
+  .games-main-title {
+    font-size: 5rem;
+  }
+  .games-main-text {
+    font-size: 3.7rem;
+  }
+  .games-main-image img {
+    width: 90%;
+  }
+  .games-main .blaster {
+    width: 60%;
+    left: 50%;
+  }
+  .games-btn {
+    font-size: 4.5rem;
+  }
+  .review-block-client .client-info .client-information {
+    font-size: 3.3rem;
+  }
+  .review-block-client .client-text {
+    font-size: 2.5rem;
+  }
+  .working-block {
+    margin-top: 15rem;
+  }
+  .working-block-text {
+    font-size: 4rem;
+  }
+  .thank-request-block h3 {
+    font-size: 4rem;
+  }
+  .thank-request-block p {
+    font-size: 2.8rem;
+  }
+  .request-a-call-form {
+    width: 90%;
+  }
+  .request-a-call-form .form-header {
+    font-size: 4rem;
+  }
+  .request-a-call-form .form-main-input {
+    padding: 2rem 1.5rem;
+    margin-top: 2rem;
+    font-size: 3.5rem;
+  }
+  .request-a-call-form .form-main small {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+  }
+  .request-a-call-form .request-btn {
+    margin-top: 2rem;
+    font-size: 3rem;
+  }
+  .request-a-call-form .close-btn {
+    top: -4%;
+    width: 7rem;
+    height: 7rem;
+    border: 2px solid #18a7d0;
+  }
+  .request-a-call-form .close-btn-icon {
+    margin-left: 0.4rem;
+    margin-top: 0.55rem;
+    font-size: 4rem;
+  }
+  .request-a-call-form .wrap-arrow {
+    font-size: 4rem;
+    right: 2rem;
+  }
+  .watch-the-video-youtube {
+    padding: 50% 0%;
+  }
+}

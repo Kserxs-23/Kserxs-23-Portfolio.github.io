@@ -1,0 +1,1027 @@
+@light: #fff;
+@btn-color: #94ca2d;
+@icons-color: #bfe5ec;
+@form-color: #18a7d0;
+
+@media screen and (max-width: 2200px) {
+	.dino-img {
+		width: 30%;
+		top: 10% !important;
+		right: 10% !important;
+	}
+}
+
+@media screen and (max-width: 1700px) {
+	.dino-img {
+		width: 40%;
+		top: 25% !important;
+		right: 5% !important;
+	}
+	.compatibility {
+		&-vr {
+			img {
+				width: 80%;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.about {
+		&-img {
+			top: 20%;
+			right: -20%;
+			width: 50%;
+		}
+	}
+	.abilities {
+		&-block {
+			width: 100%;
+		}
+		.iron-man-part-text {
+			margin: 0;
+		}
+		.emerald {
+			display: none;
+		}
+		.assasins-part {
+			&-text {
+				margin-left: 10rem;
+			}
+		}
+	}
+	.compatibility {
+		&-vr {
+			img {
+				width: 90%;
+			}
+		}
+	}
+	.unique-offer {
+		p {
+			span {
+				display: block;
+			}
+		}
+	}
+	.cont-details-2 {
+		&-img {
+			position: absolute;
+			top: -10%;
+		}
+		background: url(../img/cont-details-2/bg.png) no-repeat right center;
+		background-size: cover;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	html {
+		font-size: 8px;
+	}
+	.top-line {
+		height: 0.5%;
+	}
+	.header {
+		max-width: 80rem;
+	}
+	.main-trigger img {
+		width: 45%;
+	}
+	.about {
+		&-img {
+			width: 40%;
+			right: -5%;
+		}
+	}
+	.abilities {
+		.diamond {
+			display: none;
+		}
+		.text-block {
+			margin-top: 6rem;
+		}
+		.iron-man-part {
+			flex-direction: column;
+		}
+		.shark-part {
+			flex-direction: column-reverse;
+		}
+		.skiing-part {
+			right: 0;
+		}
+		.skiing-img, .mac-img {
+			width: 90%;	
+			display: block;
+			margin: 4rem auto;
+		}
+		.assasins-part {
+			left: 0;
+			&-text {
+				margin-left: 0;
+				right: 0;
+			}
+		}
+	}
+	.starting {
+		&-img {
+			margin-top: 3rem;
+		}
+	}
+	.compatibility {
+		&-title {
+			text-align: center;
+			font-size: 5rem;
+		}
+		.coub {
+			display: none;
+		}
+		&-media-block {
+			display: none;
+		}
+		&-vr-2 {
+			display: block;
+		}
+	}
+	.games {
+		&-main {
+			&-title {
+				font-size: 3rem;
+			}
+			&-text {
+				font-size: 2rem;
+			}
+			&-image {
+				img {
+					width: 100%;
+				}
+			}
+			.blaster {
+				width: 70%;
+				left: 50%;
+			}
+			&-block {
+				margin-bottom: 4rem;
+			}
+		}
+	}
+	.review {
+		&-block {
+			&-client {
+				.comment-gem {
+					position: absolute;
+					right: -45%;
+					top: -30%;
+				}
+				.client-info {
+					.client-information {
+						font-size: 1.6rem;
+					}
+					img {
+						width: 27%;
+					}
+				}
+				.client-text {
+					font-size: 1.6rem;
+				}
+			}
+		}
+	}
+	.working {
+		&-block {
+			margin-bottom: 7rem;
+			&-text {
+				font-size: 2rem;
+			}
+		}
+	}
+	.watch-the-video-youtube {
+		padding: 20% 10%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.header {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		&-link {
+			margin-top: 2rem;
+			&__phone-number {
+				display: inline-block;
+			}
+			&__order-link {
+				margin-left: 3rem;
+			}
+		}
+	}
+	.main {
+		padding-bottom: 6rem;
+		&-trigger {
+			margin-top: 6rem !important;
+			.dino-img {
+				top: 40% !important;
+				right: 0 !important;
+			}
+		}
+	}
+	.about {
+		&-description {
+			width: 100%;
+			font-size: 2.5rem;
+		}
+		&-complectation {
+			.first-block-margin {
+				margin-left: 0;
+			}
+			&__first-block {
+				display: block;
+				margin-top: 3rem;
+				.price {
+					margin-top: 1rem;
+				}
+			}
+			&__btn {
+				margin: 4rem auto 0;
+				font-size: 2rem;
+				padding: 2.5rem 5rem;
+			}
+		}
+		&-img {
+			position: static;
+			width: 100%;
+		}
+	}
+	.abilities {
+		&-block {
+			width: 80rem;
+		}
+	}
+	.cont-details {
+		.contact-text {
+			.mobile-form {
+				margin: 3rem auto 0 auto;
+				width: 80%;
+				display: block;
+			}
+		}
+		.dekstop-form {
+			display: none;
+		}
+	}
+	.compatibility {
+		&-title {
+			text-align: center;
+			font-size: 5rem;
+		}
+	}
+	.games {
+		&-title {
+			line-height: 5rem;
+			span {
+				display: block;
+			}
+		}
+		&-img {
+			margin: 6rem auto 7rem auto;
+		}
+		&-main {
+			&-image {
+				img {
+					width: 90%;
+				}
+				.blaster {
+					width: 70%;
+				}
+			}
+			&-text {
+				font-size: 1.8rem;
+			}
+		}
+	}
+	.review {
+		&-display {
+			display: none;
+		}
+		&-block {
+			&-client {
+				.comment-gem {
+					display: none;
+				}
+				.client-info {
+					.client-information {
+						font-size: 1.6rem;
+					}
+					img {
+						width: 27%;
+					}
+				}
+				.client-text {
+					font-size: 1.5rem;
+				}
+			}
+		}
+	}
+	.watch-the-video-youtube {
+		padding: 25% 7%;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	html {
+		font-size: 6px;
+	}
+	.main {
+		&-trigger {
+			&-content {
+				&__title {
+					font-size: 3.5rem !important;
+				}
+				&__subtitle {
+					font-size: 2.1rem;
+				}
+				&__btn {
+					font-size: 3rem;
+				}
+			}
+			.dino-img {
+				top: 30%;
+			}
+		}
+	}
+	.about {
+		&-title {
+			font-size: 5rem;
+		}
+		&-description {
+			font-size: 3rem;
+		}
+		&-complectation {
+			&__first-block {
+				.complectation-title {
+					font-size: 3rem;
+				}
+				ul {
+					.point {
+						font-size: 2.5rem;
+					}
+				}
+				.price {
+					font-size: 3.5rem;
+				}
+			}
+			&__btn {
+				margin: 6rem auto;
+			}
+		}
+	}
+	.abilities {
+		.text-block {
+			.title {
+				font-size: 3rem;
+			}
+			.subtitle {
+				font-size: 2rem;
+			}
+		}
+	}
+	.cont-details {
+		.contact-text {
+			&-title {
+				font-size: 5rem;
+			}
+			.unique-offer {
+				&::after {
+					border-top: 4.4rem solid transparent;
+					border-left: 1.5rem solid @form-color;
+					border-bottom: 4.4rem solid transparent;
+				}
+				p {
+					font-size: 2.2rem;
+				}
+			}
+			.mobile-form {
+				.form {
+					&-main {
+						&-input {
+							margin-top: 3rem;
+						}
+					}
+					&__btn {
+						font-size: 2.7rem;
+					}
+				}
+			}
+		}
+	}
+	.abilities-1 {
+		display: none;
+	}
+	.starting {
+		&-title {
+			font-size: 6rem;
+		}
+		&-img {
+			margin-top: 5rem;
+			img {
+				width: 60%;
+			}
+		}
+		.step	{
+			.wrapper {
+				.wrap {
+					border: 4px solid @light;
+					span {
+						left: 27%;
+						top: -10%;
+					}
+				}
+			}
+			&-description {
+				font-size: 2.3rem;
+			}
+		}
+	}
+	.compatibility {
+		.phones {
+			&-item {
+				&-subtitle {
+					font-size: 2.9rem;
+				}
+			}
+		}
+	}
+	.video {
+		&-title {
+			font-size: 5rem;
+		}
+		&-link {
+			border: 5px solid @light;
+			width: 12.9rem;
+			height: 12.9rem;
+			.google-play-icon {
+				font-size: 5rem;
+			}
+		}
+		&-word-link {
+			font-size: 3rem;
+		}
+	}
+	.games {
+		&-title {
+			font-size: 4rem;
+		}
+		&-main {
+			&-text {
+				font-size: 2.5rem;
+			}
+			img {
+				width: 75%;
+			}
+			.blaster {
+				width: 60%;
+				left: 43%;
+			}
+			&-block {
+				margin-bottom: 5rem;
+			}
+		}
+		&-btn {
+			font-size: 3rem;
+		}
+	}
+	.review {
+		&-block {
+			&-client {
+				.client-info {
+					.client-information {
+						font-size: 2.5rem;
+					}
+				}
+				.client-text {
+					font-size: 2.3rem;
+				}
+			}
+		}
+	}
+	.working {
+		&-block {
+			margin-bottom: 10rem;
+		}
+	}
+	.cont-details-2 {
+		&-img {
+			display: none;
+		}
+		background: url(../img/cont-details-2/bg.png) no-repeat center center;
+		background-size: cover;
+	}
+	.request-a-call-form {
+		width: 80%;
+		.form-header {
+			font-size: 3.5rem;
+		}
+		.form-main {
+			&-input {
+				margin-top: 1.5rem;
+				font-size: 2.7rem;
+			}
+			small {
+				margin-top: 1.5rem;
+				font-size: 2rem;
+			}
+		}
+		.request-btn {
+			margin-top: 1.5rem;
+			font-size: 2.7rem;
+		}
+		.close-btn {
+			top: -3.5%;
+			width: 5rem;
+			height: 5rem;
+			&-icon {
+				font-size: 3rem;
+			}
+		}
+	}
+	.wrap-arrow {
+		font-size: 3.5rem !important;
+		right: 2rem;
+	}
+	.watch-the-video-youtube {
+		padding: 35% 5%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	html {
+		font-size: 5px;
+	}
+	.header {
+			&-logo {
+				&__title {
+					font-size: 2.5rem;
+				}
+			}
+			&-link {
+				&__order-link {
+					font-size: 3rem;
+				}
+			}
+		}
+	.main {
+		&-trigger {
+			&-content {
+				&__title {
+					font-size: 3rem;
+				}
+				&__btn {
+					padding: 1.5rem 5rem;
+					font-size: 2.5rem;
+				}
+			}
+		}
+	}
+	.about {
+		&_img {
+			width: 90%;
+		}
+		&-title {
+			font-size: 7rem;
+		}
+		&-complectation {
+			&__first-block {
+				margin-top: 7rem;
+				.complectation-title {
+					font-size: 5rem;
+				}
+				ul {
+					margin-top: 2rem;
+					.point {
+						font-size: 3.5rem;
+					}
+				}
+			}
+		}
+	}
+	.abilities {
+		.text-block {
+			margin-top: 4rem;
+		}
+		.iron-man-img, .shark-img {
+			width: 90%;
+		}
+	}
+	.cont-details {
+		.contact-text {
+
+			.unique-offer {
+				p {
+					font-size: 2.5rem;
+				}
+				&::after {
+					border-top: 4.9rem solid transparent;
+					border-left: 1.5rem solid @form-color;
+					border-bottom: 4.9rem solid transparent;
+				}
+			}
+			.mobile-form {
+				width: 100%;
+				.form-header {
+					font-size: 3.5rem;
+				}
+				.form-main {
+					&-input {
+						font-size: 2.5rem;
+					}
+					small {
+						font-size: 2.3rem;
+					}
+				}
+				.form__btn {
+					font-size: 3rem;
+				}
+			}
+			.features {
+				.feature-1, .feature-2 {
+					.watch-img {
+						margin-bottom: 0.5rem;
+					}
+					p {
+						font-size: 2.2rem;
+					}
+				}
+			}
+		}
+	}
+	.starting {
+		background-size: auto;
+		&-title {
+			&::after {
+				height: 1rem;
+				width: 10rem;
+			}
+		}
+		.step {
+			.wrapper {
+				.wrap {
+					border: 3px solid @light;
+					width: 5rem;
+					height: 5rem;
+					span {
+						top: -15%;
+					}
+				}
+			}
+			&-description {
+				font-size: 2.5rem;
+			}
+		}
+	}
+	.compatibility {
+		.phones {
+			img {
+				display: block;
+				margin: 0 auto;
+				width: 80%;
+			}
+			&-item {
+				&-subtitle {
+					margin-top: 5rem;
+					font-size: 3rem; 
+				}
+			}
+		}
+	}
+	.games {
+		&-title {
+			font-size: 5rem;
+			span {
+				margin-top: 1.2rem;
+			}
+		}
+		&-main {
+			&-title {
+				font-size: 4.5rem;
+			}
+			&-text {
+				font-size: 3rem;
+			}
+			img {
+				width: 80%;
+			}
+			.blaster {
+				width: 60%;
+				left: 43%;
+			}
+			&-block {
+				margin-bottom: 10rem;
+			}
+		}
+		&-btn {
+			font-size: 4.5rem;
+		}
+	}
+	.review {
+		&-block {
+			&-client {
+				.client-info {
+					.client-information {
+						font-size: 3rem;
+					}
+				}
+				.client-text {
+					font-size: 2.6rem;
+				}
+			}
+		}
+	}
+	.working {
+		&-block {
+			margin-top: 15rem;
+			&-text {
+				font-size: 3rem;
+			}
+		}
+	}
+	.footer {
+		.question {
+			h3 {
+				font-size: 5rem;
+			}
+			a {
+				font-size: 3rem;
+			}
+		}
+		&-nav-bg {
+		padding: 4rem 0 5rem;
+	}
+		&-link {
+			&-number {
+				display: block;
+				text-align: center;
+				margin-top: 6rem;
+				font-size: 6rem;
+			}
+			&-order {
+				display: block;
+				margin-top: 12rem;
+				font-size: 6rem;
+			}
+		}
+	}
+	.request-a-call-form {
+		width: 85%;
+		.form-header {
+			font-size: 4rem;
+		}
+		.form-main {
+			&-input {
+				padding: 2rem 1.5rem;
+				margin-top: 2rem;
+				font-size: 3.5rem;
+			}
+			small {
+				margin-top: 2rem;
+				font-size: 2.5rem;
+			}
+		}
+		.request-btn {
+			margin-top: 2rem;
+			font-size: 3rem;
+		}
+		.close-btn {
+			top: -4%;
+			width: 7rem;
+			height: 7rem;
+			&-icon {
+				margin-top: 0.55rem;
+				font-size: 4rem;
+			}
+		}
+	}
+	.watch-the-video-youtube {
+		padding: 45% 3%;
+	}
+}
+
+@media screen and (max-width: 400px) and (min-width: 320px) {
+	html {
+		font-size: 4px;
+	}
+	.header {
+			&-logo {
+				&__title {
+					font-size: 2.7rem;
+				}
+			}
+			&-link {
+				margin-top: 5rem;
+				&__phone-number {
+					font-size: 4rem;
+				}
+				&__order-link {
+					font-size: 4rem;
+				}
+			}
+		}
+	.main {
+		&-trigger {
+			&-content {
+				&__title {
+					font-size: 2rem;
+				}
+				&__btn {
+					padding: 1.5rem 5rem;
+					font-size: 3rem;
+				}
+			}
+			.dino-img {
+				top: 35%;
+			} 
+		}
+	}
+	.about {
+		&-img {
+			width: 100%;
+		}
+		&-complectation {
+			&__btn {
+				font-size: 2.4rem;
+				padding: 3.5rem 6rem;
+			}
+		}
+	}
+	.abilities {
+		.text-block {
+			.title {
+				font-size: 3.5rem;
+			}
+			.subtitle {
+				font-size: 2.5rem;
+			}
+		}
+		.icon {
+			margin-top: 10%;
+		}
+	} 
+	.cont-details {
+		.contact-text {
+			.unique-offer {
+				&::after {
+					border-top: 8.1rem solid transparent;
+					border-left: 1.7rem solid @form-color;
+					border-bottom: 8.1rem solid transparent; 
+				}
+				p { 
+					font-size: 3.5rem;
+					span {
+						display: inline;
+					}
+				} 
+			}
+			.mobile-form {
+				width: 100%;
+				.form-main-input {
+					padding: 2.5rem 2rem;
+					font-size: 2.7rem;
+				}
+			}
+			.features {
+				.watch-img, .bag-img {
+					width: 20%;
+				}
+			}
+		}
+	}
+	.starting {
+		background-size: 800%;
+		&-img {
+			margin-top: 17rem;
+			img {
+				width: 90%;
+			}
+		}
+		.step {
+			.wrapper {
+				width: 9rem;
+				height: 9rem;
+				.wrap {
+					width: 7.6rem;
+					height: 7.6rem;
+					span {
+						font-size: 5rem;
+						top: -12%;
+					}
+				}
+			}
+			&-description {
+				font-size: 3rem;
+			}
+		}
+	} 
+	.compatibility {
+		.phones {
+			&-item {
+				&-subtitle {
+					font-size: 3.5rem; 
+				}
+			}
+		}
+	}
+	.games {
+		&-title {
+			margin-bottom: 11rem;
+		}
+		&-main {
+			&-title {
+				font-size: 5rem;
+			}
+			&-text {
+				font-size: 3.7rem;
+			}
+			&-image {
+				img {
+					width: 90%;
+				}
+			}
+			.blaster {
+				width: 60%;
+				left: 50%;
+			}
+		}
+		&-btn {
+			font-size: 4.5rem;
+		}
+	}
+	.review {
+		&-block {
+			&-client {
+				.client-info {
+					.client-information { 
+						font-size: 3.3rem;
+					}
+				}
+				.client-text {
+					font-size: 2.5rem;
+				}
+			}
+		}
+	}
+	.working {
+		&-block {
+			margin-top: 15rem;
+			&-text {
+				font-size: 4rem;
+			}
+		}
+	}
+	.thank {
+		&-request-block {
+			h3 {
+				font-size: 4rem;
+			}
+			p {
+				font-size: 2.8rem;
+			}
+		}
+	}
+	.request-a-call-form {
+		width: 90%;
+		.form-header {
+			font-size: 4rem;
+		}
+		.form-main {
+			&-input {
+				padding: 2rem 1.5rem;
+				margin-top: 2rem;
+				font-size: 3.5rem;
+			}
+			small {
+				margin-top: 2rem;
+				font-size: 2.5rem;
+			}
+		}
+		.request-btn {
+			margin-top: 2rem;
+			font-size: 3rem;
+		}
+		.close-btn {
+			top: -4%;
+			width: 7rem;
+			height: 7rem;
+			border: 2px solid @form-color;
+			&-icon {
+				margin-left: 0.4rem;
+				margin-top: 0.55rem;
+				font-size: 4rem;
+			}
+		}
+		.wrap-arrow {
+			font-size: 4rem;
+			right: 2rem;
+		}
+	}
+	.watch-the-video-youtube {
+		padding: 50% 0%;
+	}
+}

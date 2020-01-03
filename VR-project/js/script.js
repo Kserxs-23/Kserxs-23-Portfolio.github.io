@@ -352,7 +352,7 @@ $(document).ready(function() {
   $('.watch-the-video').on('click', function(event) {
     event.preventDefault();
     $('.watch-wrapper').css('display', 'none');
-    ('html').css('overflow', 'scroll');
+    $('html').css('overflow', 'scroll');
   });    
 });
 

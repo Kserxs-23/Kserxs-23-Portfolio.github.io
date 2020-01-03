@@ -2,12 +2,12 @@
 
 /*stopping video after closing modal window*/
 $(document).ready(function() {
-	'use strict';
+  'use strict';
 
-	const close_btn = document.getElementById('pause_video');
-  const close_btn_2 = document.getElementById('pause_video_2');
+  var close_btn = document.getElementById('pause_video');
+  var close_btn_2 = document.getElementById('pause_video_2');
 
-	const click = close_btn.addEventListener('click', ()=> {
+  var click = close_btn.addEventListener('click', ()=> {
 
 
     var my_video = $(".watch-the-video-youtube");
@@ -21,7 +21,7 @@ $(document).ready(function() {
 
   })
 
-  const click_2 = close_btn_2.addEventListener('click', ()=> {
+  var click_2 = close_btn_2.addEventListener('click', ()=> {
 
 
     var my_video = $(".watch-the-video-youtube");

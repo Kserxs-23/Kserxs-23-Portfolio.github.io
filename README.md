@@ -7,5 +7,4 @@ My portfolio
 
 ["Merkury" Landing page](https://Kserxs-23.github.io/Merkury/index.html 'Second work')
 
-["VR" Landing page](https://Kserxs-23.github.io/VR-project/index.min.html 'Second work')
 
